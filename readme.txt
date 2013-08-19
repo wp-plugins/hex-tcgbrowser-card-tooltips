@@ -30,7 +30,9 @@ plugin and click 'Install'.
 
 == Screenshots ==
 
-1. A sample of toolip
+1. Select a card name and click on Hex button
+
+2. An example of the generated tooltip.
 
 == Changelog ==
 
