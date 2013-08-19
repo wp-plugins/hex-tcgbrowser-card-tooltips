@@ -18,7 +18,7 @@ function hex_tcgbrowser_register_button($buttons)
 function hex_tcgbrowser_add_tinymce_plugin($plugin_array)
 {
     $plugin_array['hex_tcgbrowser'] = get_bloginfo('wpurl') .
-        '/wp-content/plugins/wordpress-hex-tcgbrowser-tooltips/resources/tinymce3/editor_plugin.js';
+        '/wp-content/plugins/hex-tcgbrowser-card-tooltips/resources/tinymce3/editor_plugin.js';
     return $plugin_array;
 }
 

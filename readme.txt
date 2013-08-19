@@ -13,7 +13,7 @@ Transform Hex TCG card names into links that show the card image when hovering o
 
 The plugin adds a button in the visual post editor. To use it, just select the text that
 represents a Hex TCG card name, and click the button. It will turn the text into a
-link to the card's page on hex.tcgbrowser.com. Note that the tooltips will work only after
+link to the card's page on http://hex.tcgbrowser.com. Note that the tooltips will work only after
 you publish or preview the post.
 
 == Installation ==
