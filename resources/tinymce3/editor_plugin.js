@@ -46,7 +46,7 @@
                 longname: "Hex TCGBrowser Card Tooltips",
                 author: 'bogycoins',
                 authorurl: 'http://hex.tcgbrowser.com',
-                infourl: 'http://hex.tcgbrowser.com/tools/api',
+                infourl: 'http://wordpress.org/plugins/hex-tcgbrowser-card-tooltips/',
                 version: "1.0"
             };
         }
