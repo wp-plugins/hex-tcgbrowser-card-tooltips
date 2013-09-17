@@ -3,7 +3,7 @@ Contributors: bogycoins
 Tags: hex, tcg, tcgbrowser, cards, tooltips
 Requires at least: 2.8.6
 Tested up to: 3.6
-Stable tag: 1.0
+Stable tag: 1.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -38,3 +38,6 @@ plugin and click 'Install'.
 
 = 1.0 =
 * Initial release
+
+= 1.1 =
+* Link to database site is now added when the text is transformed

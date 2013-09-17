@@ -14,7 +14,7 @@
                 image: url + '/../../images/hex.png',
                 onclick: function () {
                     var txt = ed.dom.decode(ed.selection.getContent());
-                    ed.selection.setContent('<a data-name="' + txt + '" href="">' + txt + '</a>');
+                    ed.selection.setContent('<a target="_blank" href="http://hex.tcgbrowser.com/card/'+ txt +'" data-name="' + txt + '">' + txt + '</a>');
                     ed.save();
                     ed.isNotDirty = true;
                 }
