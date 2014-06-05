@@ -2,8 +2,8 @@
 Contributors: bogycoins
 Tags: hex, tcg, tcgbrowser, cards, tooltips
 Requires at least: 2.8.6
-Tested up to: 3.9
-Stable tag: 1.1
+Tested up to: 3.9.1
+Stable tag: 1.2
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -41,3 +41,6 @@ plugin and click 'Install'.
 
 = 1.1 =
 * Link to database site is now added when the text is transformed
+
+= 1.2 =
+* Updated tooltip location

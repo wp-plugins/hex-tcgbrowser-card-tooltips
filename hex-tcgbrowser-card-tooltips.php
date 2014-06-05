@@ -5,7 +5,7 @@ Plugin URI: http://wordpress.org/plugins/hex-tcgbrowser-card-tooltips
 Description: Transform Hex TCG card names into links that show the card image when hovering over them.
 Author: bogycoins
 Author URI: http://hex.tcgbrowser.com
-Version: 1.1
+Version: 1.2
 License: GPLv2
 */
 
@@ -24,7 +24,7 @@ function hex_tcgbrowser_add_tinymce_plugin($plugin_array)
 
 function hex_tcgbrowser_add_buttons()
 {
-    wp_enqueue_script('hex_tcgbrowser', 'http://hex.tcgbrowser.com/tools/api/tooltip.js', array('jquery'));
+    wp_enqueue_script('hex_tcgbrowser', 'http://hex.tcgbrowser.com/tools/tooltips/tooltip.js', array('jquery'));
 
     if (!current_user_can('edit_posts') && !current_user_can('edit_pages'))
         return;
