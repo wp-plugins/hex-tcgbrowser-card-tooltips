@@ -47,7 +47,7 @@
                 author: 'bogycoins',
                 authorurl: 'http://hex.tcgbrowser.com',
                 infourl: 'http://wordpress.org/plugins/hex-tcgbrowser-card-tooltips/',
-                version: "1.3"
+                version: "1.4"
             };
         }
     });

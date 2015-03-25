@@ -2,8 +2,8 @@
 Contributors: bogycoins
 Tags: hex, tcg, tcgbrowser, cards, tooltips
 Requires at least: 2.8.6
-Tested up to: 4.0
-Stable tag: 1.3
+Tested up to: 4.1.1
+Stable tag: 1.4
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -47,3 +47,6 @@ plugin and click 'Install'.
 
 = 1.3 =
 * Supports Wordpress 4.0
+
+= 1.4 =
+* Supports Wordpress 4.1.1
