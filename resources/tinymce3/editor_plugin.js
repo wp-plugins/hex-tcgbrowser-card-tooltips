@@ -10,11 +10,20 @@
          */
         init: function (ed, url) {
             ed.addButton('hex_tcgbrowser', {
-                title: 'Hex card',
+                title: 'Hex Card',
                 image: url + '/../../images/hex.png',
                 onclick: function () {
                     var txt = ed.dom.decode(ed.selection.getContent());
-                    ed.selection.setContent('<a target="_blank" href="http://hex.tcgbrowser.com/card/'+ txt +'" data-name="' + txt + '">' + txt + '</a>');
+                    var decode = txt.match(/(.+)(-)(Champion|Mercenary|Troop|AA)$/i);
+                    var cardname = txt,
+                        extra = "";
+
+                    if(decode && typeof decode == "object" && decode[3]){ //typof object
+                        cardname = decode[1];
+                        extra =  "-" + decode[3];
+                    }
+
+                    ed.selection.setContent('<a target="_blank" href="http://hex.tcgbrowser.com/card/'+ cardname + extra +'">' + cardname + '</a>');
                     ed.save();
                     ed.isNotDirty = true;
                 }
@@ -47,7 +56,7 @@
                 author: 'bogycoins',
                 authorurl: 'http://hex.tcgbrowser.com',
                 infourl: 'http://wordpress.org/plugins/hex-tcgbrowser-card-tooltips/',
-                version: "1.4"
+                version: "1.5"
             };
         }
     });

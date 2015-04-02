@@ -50,3 +50,20 @@ plugin and click 'Install'.
 
 = 1.4 =
 * Supports Wordpress 4.1.1
+
+= 1.5 =
+Added support for different cards with the same name.
+
+Usage:
+To display the AA version of a card, add '-AA' at the end. For troop/champion/mercenary, add '-Troop', '-Champion' or '-Mercenary'.
+
+The plugin will remove the suffix, but the correct card will still be linked.
+
+E.g.
+Burn-AA
+Living Totem-AA
+Zoltog-Mercenary
+Zoltog-Champion
+Zoltog-Troop
+
+Note: If no suffix is added for a card that exists both as Troop and other type like Mercenary or Champion, the troop version will be selected.
