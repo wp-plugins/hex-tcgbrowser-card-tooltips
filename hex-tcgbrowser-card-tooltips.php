@@ -5,7 +5,7 @@ Plugin URI: http://wordpress.org/plugins/hex-tcgbrowser-card-tooltips
 Description: Transform Hex TCG card names into links that show the card image when hovering over them.
 Author: bogycoins
 Author URI: http://hex.tcgbrowser.com
-Version: 1.4
+Version: 1.5
 License: GPLv2
 */
 
