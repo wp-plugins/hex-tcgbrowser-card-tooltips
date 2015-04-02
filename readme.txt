@@ -3,7 +3,7 @@ Contributors: bogycoins
 Tags: hex, tcg, tcgbrowser, cards, tooltips
 Requires at least: 2.8.6
 Tested up to: 4.1.1
-Stable tag: 1.4
+Stable tag: 1.5
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -36,21 +36,6 @@ plugin and click 'Install'.
 
 == Changelog ==
 
-= 1.0 =
-* Initial release
-
-= 1.1 =
-* Link to database site is now added when the text is transformed
-
-= 1.2 =
-* Updated tooltip location
-
-= 1.3 =
-* Supports Wordpress 4.0
-
-= 1.4 =
-* Supports Wordpress 4.1.1
-
 = 1.5 =
 Added support for different cards with the same name.
 
@@ -67,3 +52,21 @@ Zoltog-Champion
 Zoltog-Troop
 
 Note: If no suffix is added for a card that exists both as Troop and other type like Mercenary or Champion, the troop version will be selected.
+
+= 1.4 =
+* Supports Wordpress 4.1.1
+
+= 1.3 =
+* Supports Wordpress 4.0
+
+= 1.2 =
+* Updated tooltip location
+
+= 1.1 =
+* Link to database site is now added when the text is transformed
+
+= 1.0 =
+* Initial release
+
+
+
