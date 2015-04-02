@@ -45,11 +45,17 @@ To display the AA version of a card, add '-AA' at the end. For troop/champion/me
 The plugin will remove the suffix, but the correct card will still be linked.
 
 E.g.
+
 Burn-AA
+
 Living Totem-AA
+
 Zoltog-Mercenary
+
 Zoltog-Champion
+
 Zoltog-Troop
+
 
 Note: If no suffix is added for a card that exists both as Troop and other type like Mercenary or Champion, the troop version will be selected.
 
