@@ -2,8 +2,8 @@
 Contributors: bogycoins
 Tags: hex, tcg, tcgbrowser, cards, tooltips
 Requires at least: 2.8.6
-Tested up to: 4.1.1
-Stable tag: 1.5
+Tested up to: 4.2.2
+Stable tag: 1.6
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -35,6 +35,9 @@ plugin and click 'Install'.
 2. An example of the generated tooltip.
 
 == Changelog ==
+
+= 1.6 =
+* Supports Wordpress 4.2.2
 
 = 1.5 =
 Added support for different cards with the same name.
